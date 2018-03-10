@@ -1,0 +1,12 @@
+[submodule "Adafruit-Eagle-Library"]
+	path = Adafruit-Eagle-Library
+	url = https://github.com/adafruit/Adafruit-Eagle-Library.git
+[submodule "AdafruitScm/Adafruit-BMP180-PCB"]
+	path = AdafruitScm/Adafruit-BMP180-PCB
+	url = https://github.com/adafruit/Adafruit-BMP180-PCB.git
+[submodule "AdafruitScm/Adafruit-Pro-Trinket-PCBs"]
+	path = AdafruitScm/Adafruit-Pro-Trinket-PCBs
+	url = https://github.com/adafruit/Adafruit-Pro-Trinket-PCBs
+[submodule "SparkFun-Eagle-Libraries"]
+	path = SparkFun-Eagle-Libraries
+	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
