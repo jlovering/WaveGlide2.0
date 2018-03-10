@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="ATMEGA328/P28M-A">
+<description>ATMEGA328/P 28-Pin MFL (VQFN)</description>
+<smd name="PAD" x="0" y="0" dx="2.4" dy="2.4" layer="1" roundness="9"/>
+<smd name="4" x="-1.8" y="0" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="18" x="1.8" y="0" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="25" x="0" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="3" x="-1.8" y="0.45" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-1.8" y="0.9" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-1.8" y="1.35" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-1.8" y="-0.45" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-1.8" y="-0.9" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="-1.8" y="-1.35" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="26" x="-0.45" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="27" x="-0.9" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="28" x="-1.35" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="24" x="0.45" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="23" x="0.9" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="22" x="1.35" y="1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="19" x="1.8" y="0.45" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="20" x="1.8" y="0.9" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="21" x="1.8" y="1.35" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="17" x="1.8" y="-0.45" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="16" x="1.8" y="-0.9" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="15" x="1.8" y="-1.35" dx="0.22" dy="0.4" layer="1" rot="R90"/>
+<smd name="11" x="0" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="10" x="-0.45" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="9" x="-0.9" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="8" x="-1.35" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="12" x="0.45" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="13" x="0.9" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<smd name="14" x="1.35" y="-1.8" dx="0.22" dy="0.4" layer="1" rot="R180"/>
+<text x="-2" y="2.15" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2" y="-2.15" size="0.6096" layer="27" align="top-left">&gt;VALUE</text>
+</package>
+<package name="BMP180">
+<description>BMP180 Footprint</description>
+<wire x1="-1.8" y1="1.9" x2="1.8" y2="1.9" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="-1.9" x2="1.8" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="1.9" x2="-1.8" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="1.8" y1="-1.9" x2="1.8" y2="1.9" width="0.127" layer="51"/>
+<smd name="P1" x="-1.45" y="1.5" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="P2" x="-1.45" y="0" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="P3" x="-1.45" y="-1.5" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="P4" x="1.45" y="-1.5" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="P5" x="1.45" y="0" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="P6" x="1.45" y="1.5" dx="0.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="P7" x="0" y="1.55" dx="0.5" dy="0.6" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ATMEGA328/P">
+<description>ATMEGA328/P 28-pin Symbol</description>
+<wire x1="-30.48" y1="38.1" x2="30.48" y2="38.1" width="0.254" layer="94"/>
+<wire x1="30.48" y1="38.1" x2="30.48" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-40.64" x2="-30.48" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-40.64" x2="-30.48" y2="38.1" width="0.254" layer="94"/>
+<pin name="PB0/PCINT0/CLKO/ICP1" x="35.56" y="35.56" length="middle" rot="R180"/>
+<pin name="PB1/OC1A/PCINT1" x="35.56" y="30.48" length="middle" rot="R180"/>
+<pin name="PB2/^SS/OC1B/PCINT2" x="35.56" y="25.4" length="middle" rot="R180"/>
+<pin name="PB3/MOSI/OC2A/PCINT3" x="35.56" y="20.32" length="middle" rot="R180"/>
+<pin name="PB4/MISO/PCINT4" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="PB5/SCK/PCINT5" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="PB6/PCINT6/XTAL1/TOSC1" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="PD0/PCINT16/RXD" x="-35.56" y="35.56" length="middle"/>
+<pin name="PD1/PCINT17/TXD" x="-35.56" y="30.48" length="middle"/>
+<pin name="PD2/PCINT18/INT0" x="-35.56" y="25.4" length="middle"/>
+<pin name="PD3/PCINT19/OC2B/INT1" x="-35.56" y="20.32" length="middle"/>
+<pin name="PD4/PCINT20/XCK/T0" x="-35.56" y="15.24" length="middle"/>
+<pin name="PD5/PCINT21/OC0B/T1" x="-35.56" y="10.16" length="middle"/>
+<pin name="PD6/PCINT22/OC0A/AIN0" x="-35.56" y="5.08" length="middle"/>
+<pin name="PC0/ADC0/PCINT8" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC1/ADC1/PCINT9" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="PC2/ADC2/PCINT10" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="PC3/ADC3/PCINT11" x="35.56" y="-22.86" length="middle" rot="R180"/>
+<pin name="PC4/ADC4/SDA/PCINT12" x="35.56" y="-27.94" length="middle" rot="R180"/>
+<pin name="PC5/ADC5/SCL/PCINT13" x="35.56" y="-33.02" length="middle" rot="R180"/>
+<pin name="PC6/PCINT14/^RESET" x="35.56" y="-38.1" length="middle" rot="R180"/>
+<pin name="PB7/PCINT7/XTAL2/TOSC2" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="PD7/PCINT23/AIN1" x="-35.56" y="0" length="middle"/>
+<pin name="VCC" x="-35.56" y="-12.7" length="middle" direction="pwr"/>
+<pin name="AVCC" x="-35.56" y="-17.78" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-35.56" y="-22.86" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-35.56" y="-27.94" length="middle" direction="pwr"/>
+<text x="-30.48" y="38.862" size="1.778" layer="95">&gt;NAME</text>
+<text x="-30.48" y="-41.402" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="GND@PAD" x="-35.56" y="-33.02" length="middle" direction="pwr"/>
+<pin name="AREF" x="-35.56" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="BMP180">
+<description>BMP180</description>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="CSB" x="-15.24" y="7.62" length="middle" direction="nc"/>
+<pin name="VDD" x="-15.24" y="2.54" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
+<pin name="SDO" x="15.24" y="7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="SCL" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.922" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATMEGA328/P">
+<description>ATMEGA328/P Part</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA328/P" x="-12.7" y="2.54"/>
+</gates>
+<devices>
+<device name="28M1" package="ATMEGA328/P28M-A">
+<connects>
+<connect gate="G$1" pin="AREF" pad="17"/>
+<connect gate="G$1" pin="AVCC" pad="16"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="18"/>
+<connect gate="G$1" pin="GND@PAD" pad="PAD"/>
+<connect gate="G$1" pin="PB0/PCINT0/CLKO/ICP1" pad="10"/>
+<connect gate="G$1" pin="PB1/OC1A/PCINT1" pad="11"/>
+<connect gate="G$1" pin="PB2/^SS/OC1B/PCINT2" pad="12"/>
+<connect gate="G$1" pin="PB3/MOSI/OC2A/PCINT3" pad="13"/>
+<connect gate="G$1" pin="PB4/MISO/PCINT4" pad="14"/>
+<connect gate="G$1" pin="PB5/SCK/PCINT5" pad="15"/>
+<connect gate="G$1" pin="PB6/PCINT6/XTAL1/TOSC1" pad="5"/>
+<connect gate="G$1" pin="PB7/PCINT7/XTAL2/TOSC2" pad="6"/>
+<connect gate="G$1" pin="PC0/ADC0/PCINT8" pad="19"/>
+<connect gate="G$1" pin="PC1/ADC1/PCINT9" pad="20"/>
+<connect gate="G$1" pin="PC2/ADC2/PCINT10" pad="21"/>
+<connect gate="G$1" pin="PC3/ADC3/PCINT11" pad="22"/>
+<connect gate="G$1" pin="PC4/ADC4/SDA/PCINT12" pad="23"/>
+<connect gate="G$1" pin="PC5/ADC5/SCL/PCINT13" pad="24"/>
+<connect gate="G$1" pin="PC6/PCINT14/^RESET" pad="25"/>
+<connect gate="G$1" pin="PD0/PCINT16/RXD" pad="26"/>
+<connect gate="G$1" pin="PD1/PCINT17/TXD" pad="27"/>
+<connect gate="G$1" pin="PD2/PCINT18/INT0" pad="28"/>
+<connect gate="G$1" pin="PD3/PCINT19/OC2B/INT1" pad="1"/>
+<connect gate="G$1" pin="PD4/PCINT20/XCK/T0" pad="2"/>
+<connect gate="G$1" pin="PD5/PCINT21/OC0B/T1" pad="7"/>
+<connect gate="G$1" pin="PD6/PCINT22/OC0A/AIN0" pad="8"/>
+<connect gate="G$1" pin="PD7/PCINT23/AIN1" pad="9"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMP180">
+<description>BMP180 Barometer</description>
+<gates>
+<gate name="G$1" symbol="BMP180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP180">
+<connects>
+<connect gate="G$1" pin="CSB" pad="P1"/>
+<connect gate="G$1" pin="GND" pad="P7"/>
+<connect gate="G$1" pin="SCL" pad="P5"/>
+<connect gate="G$1" pin="SDA" pad="P6"/>
+<connect gate="G$1" pin="SDO" pad="P4"/>
+<connect gate="G$1" pin="VDD" pad="P2"/>
+<connect gate="G$1" pin="VDDIO" pad="P3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
