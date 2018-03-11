@@ -756,26 +756,37 @@ Source: http://www.panasonic-electric-works.com/catalogues/downloads/photomos/ds
 <wire x1="0.635" y1="-2.3495" x2="0.635" y2="-8.89" width="0.127" layer="51"/>
 <wire x1="3.937" y1="-2.3495" x2="3.937" y2="-8.89" width="0.127" layer="51"/>
 <wire x1="0.635" y1="-8.9535" x2="3.937" y2="-8.9535" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="9.9695" x2="-8.89" y2="-2.3495" width="0.127" layer="51"/>
-<wire x1="8.89" y1="9.9695" x2="8.89" y2="-2.3495" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="9.9695" x2="-6.1595" y2="9.9695" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-2.3495" x2="-6.1595" y2="-2.3495" width="0.127" layer="51"/>
-<wire x1="6.1595" y1="-2.3495" x2="8.89" y2="-2.3495" width="0.127" layer="51"/>
-<wire x1="6.1595" y1="9.9695" x2="8.89" y2="9.9695" width="0.127" layer="51"/>
-<wire x1="-8.89" y1="-1.143" x2="-8.89" y2="-2.3495" width="0.254" layer="21"/>
-<wire x1="-8.89" y1="-2.3495" x2="-7.62" y2="-2.3495" width="0.254" layer="21"/>
-<wire x1="-8.89" y1="8.763" x2="-8.89" y2="9.9695" width="0.254" layer="21"/>
-<wire x1="-8.89" y1="9.9695" x2="-7.62" y2="9.9695" width="0.254" layer="21"/>
-<wire x1="7.62" y1="9.9695" x2="8.89" y2="9.9695" width="0.254" layer="21"/>
-<wire x1="8.89" y1="8.763" x2="8.89" y2="9.9695" width="0.254" layer="21"/>
-<wire x1="8.89" y1="-1.143" x2="8.89" y2="-2.3495" width="0.254" layer="21"/>
-<wire x1="7.62" y1="-2.3495" x2="8.89" y2="-2.3495" width="0.254" layer="21"/>
+<wire x1="-6.1595" y1="-1.0795" x2="-6.1595" y2="-2.3495" width="0.254" layer="21"/>
+<wire x1="-6.1595" y1="-2.3495" x2="-3.937" y2="-2.3495" width="0.254" layer="21"/>
+<wire x1="-6.1595" y1="8.6995" x2="-6.1595" y2="9.9695" width="0.254" layer="21"/>
+<wire x1="-6.1595" y1="9.9695" x2="-4.8895" y2="9.9695" width="0.254" layer="21"/>
+<wire x1="4.8768" y1="9.9695" x2="6.1468" y2="9.9695" width="0.254" layer="21"/>
+<wire x1="6.1468" y1="8.6995" x2="6.1468" y2="9.9695" width="0.254" layer="21"/>
+<wire x1="6.1595" y1="-1.0795" x2="6.1595" y2="-2.3495" width="0.254" layer="21"/>
+<wire x1="3.937" y1="-2.3495" x2="6.1595" y2="-2.3495" width="0.254" layer="21"/>
 <wire x1="-3.937" y1="-7.747" x2="-3.937" y2="-8.9535" width="0.254" layer="21"/>
 <wire x1="-0.635" y1="-7.747" x2="-0.635" y2="-8.9535" width="0.254" layer="21"/>
 <wire x1="0.635" y1="-7.747" x2="0.635" y2="-8.9535" width="0.254" layer="21"/>
 <wire x1="3.937" y1="-7.747" x2="3.937" y2="-8.9535" width="0.254" layer="21"/>
 <wire x1="-3.937" y1="-8.9535" x2="-0.635" y2="-8.9535" width="0.254" layer="21"/>
 <wire x1="0.635" y1="-8.9535" x2="3.937" y2="-8.9535" width="0.254" layer="21"/>
+<text x="-8.89" y="10.46" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.82" y="-9.16" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="-8.89" y1="-0.5334" x2="-6.1595" y2="0.5334" layer="51"/>
+<rectangle x1="-8.89" y1="2.0066" x2="-6.1595" y2="3.0734" layer="51"/>
+<rectangle x1="-8.89" y1="4.5466" x2="-6.1595" y2="5.6134" layer="51"/>
+<rectangle x1="-8.89" y1="7.0866" x2="-6.1595" y2="8.1534" layer="51"/>
+<rectangle x1="6.1595" y1="-0.5334" x2="8.89" y2="0.5334" layer="51"/>
+<rectangle x1="6.1595" y1="2.0066" x2="8.89" y2="3.0734" layer="51"/>
+<rectangle x1="6.1595" y1="4.5466" x2="8.89" y2="5.6134" layer="51"/>
+<rectangle x1="6.1595" y1="7.0866" x2="8.89" y2="8.1534" layer="51"/>
+<wire x1="-3.937" y1="-2.3495" x2="-3.937" y2="-3.6195" width="0.254" layer="21"/>
+<wire x1="3.937" y1="-2.3241" x2="3.937" y2="-3.5941" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-2.3495" x2="-0.635" y2="-3.6195" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-2.3495" x2="0.635" y2="-3.6195" width="0.254" layer="21"/>
+<wire x1="-0.6096" y1="-2.3368" x2="0.6604" y2="-2.3368" width="0.254" layer="21"/>
+<wire x1="0.6604" y1="-2.3368" x2="0.6604" y2="-2.3622" width="0.254" layer="51"/>
+<circle x="7.8994" y="-2.0066" radius="0.647575" width="0.254" layer="21"/>
 </package>
 <package name="MS-20-310-HN">
 <hole x="0" y="0" drill="3.3"/>
@@ -1099,6 +1110,137 @@ Source: Comchip CGRM4001-G.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="texas" urn="urn:adsk.eagle:library:387">
+<description>&lt;b&gt;Texas Instruments Devices&lt;/b&gt;&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT23-DBV" library_version="2">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
+Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
+<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS770XX" library_version="2">
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" length="short" direction="in"/>
+<pin name="!EN" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="NC/FB" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS770*" prefix="IC" library_version="2">
+<description>&lt;b&gt;ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS&lt;/b&gt;&lt;p&gt;
+50-mA Low-Dropout Regulator&lt;br&gt;
+Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
+<gates>
+<gate name="G$1" symbol="TPS770XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-DBV">
+<connects>
+<connect gate="G$1" pin="!EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC/FB" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="01">
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MPN" value="TPS77001DBVT" constant="no"/>
+<attribute name="OC_FARNELL" value="8461554" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1171" constant="no"/>
+</technology>
+<technology name="12">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="TPS77012DBVR" constant="no"/>
+<attribute name="OC_FARNELL" value="1412877" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1172" constant="no"/>
+</technology>
+<technology name="15">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="TPS77015DBVT" constant="no"/>
+<attribute name="OC_FARNELL" value="1412879" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1175" constant="no"/>
+</technology>
+<technology name="18">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="TPS77018DBVR" constant="no"/>
+<attribute name="OC_FARNELL" value="1575745" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1176" constant="no"/>
+</technology>
+<technology name="25">
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MPN" value="TPS77025DBVR" constant="no"/>
+<attribute name="OC_FARNELL" value="1412881" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1178" constant="no"/>
+</technology>
+<technology name="27">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="TPS77027DBVT" constant="no"/>
+<attribute name="OC_FARNELL" value="1510191" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1181" constant="no"/>
+</technology>
+<technology name="28">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="TPS77028DBVR" constant="no"/>
+<attribute name="OC_FARNELL" value="1412882" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1182" constant="no"/>
+</technology>
+<technology name="30">
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MPN" value="TPS77030DBVT" constant="no"/>
+<attribute name="OC_FARNELL" value="1207348" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1185" constant="no"/>
+</technology>
+<technology name="33">
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MPN" value="TPS77033DBVT" constant="no"/>
+<attribute name="OC_FARNELL" value="8461570" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1187" constant="no"/>
+</technology>
+<technology name="50">
+<attribute name="MF" value="TEXAS INSTRUMENT CONNECTORS" constant="no"/>
+<attribute name="MPN" value="TPS77050DBVT" constant="no"/>
+<attribute name="OC_FARNELL" value="1412883" constant="no"/>
+<attribute name="OC_NEWARK" value="77C1189" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1116,6 +1258,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="K2" library="CustomParts" deviceset="MS-20-310-HN" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="4"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2111" device=""/>
+<part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS770*" device="" technology="33"/>
 </parts>
 <sheets>
 <sheet>
@@ -1139,6 +1282,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="X1" gate="-9" x="91.44" y="63.5"/>
 <instance part="X1" gate="-10" x="91.44" y="60.96"/>
 <instance part="X1" gate="-11" x="91.44" y="58.42"/>
+<instance part="IC1" gate="G$1" x="106.68" y="43.18"/>
 </instances>
 <busses>
 </busses>
