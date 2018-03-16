@@ -10,3 +10,6 @@
 [submodule "SparkFun-Eagle-Libraries"]
 	path = SparkFun-Eagle-Libraries
 	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
+[submodule "AdafruitScm/Adafruit-1.27inch-Color-OLED-Breakout-PCB"]
+	path = AdafruitScm/Adafruit-1.27inch-Color-OLED-Breakout-PCB
+	url = https://github.com/adafruit/Adafruit-1.27inch-Color-OLED-Breakout-PCB.git
