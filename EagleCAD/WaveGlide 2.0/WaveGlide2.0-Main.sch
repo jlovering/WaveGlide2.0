@@ -7645,8 +7645,6 @@ internally</text>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-</net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="299.72" y1="233.68" x2="299.72" y2="231.14" width="0.1524" layer="91"/>
@@ -7765,10 +7763,6 @@ internally</text>
 <label x="22.86" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-</net>
-<net name="N$14" class="0">
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="Y2" gate="G$1" pin="1"/>
@@ -7810,10 +7804,6 @@ internally</text>
 <wire x1="195.58" y1="246.38" x2="195.58" y2="254" width="0.1524" layer="91"/>
 <junction x="195.58" y="254"/>
 </segment>
-</net>
-<net name="N$17" class="0">
-</net>
-<net name="N$18" class="0">
 </net>
 <net name="USB_D-" class="0">
 <segment>
