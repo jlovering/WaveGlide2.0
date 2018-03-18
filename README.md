@@ -8,15 +8,15 @@ This is intended as an Open Source Hardware ([OSHWA](https://www.oshwa.org)) pro
 This project is in it's infancy. Current status is "Design Incomplete"
 
 ## Detailed Status
- * EE Design
+* EE Design
   * Component Selection: Complete
   * Schematic Capture: Incomplete
-   * Power domains remain
+    * Power domains remain
   * Board Layout: Incomplete
-   * Initial Floorplaning Started
+    * Initial Floorplaning Started
   * Board Validation: Incomplete
 
- * ME Design
+* ME Design
   * ECAD Parts: Mostly Complete
   * MCAD Parts: Not Started
   * Assempbly Design: Not Started
