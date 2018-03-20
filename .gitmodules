@@ -13,3 +13,6 @@
 [submodule "AdafruitScm/Adafruit-1.27inch-Color-OLED-Breakout-PCB"]
 	path = AdafruitScm/Adafruit-1.27inch-Color-OLED-Breakout-PCB
 	url = https://github.com/adafruit/Adafruit-1.27inch-Color-OLED-Breakout-PCB.git
+[submodule "EDALibraries"]
+	path = EDALibraries
+	url = https://github.com/MacroFab/EDALibraries.git
