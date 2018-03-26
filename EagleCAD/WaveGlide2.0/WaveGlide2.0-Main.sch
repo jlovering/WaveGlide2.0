@@ -15446,24 +15446,29 @@ NS Package M08A</description>
 <attribute name="POPULATE" value="1"/>
 </part>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="60.4k">
-<attribute name="MPN" value="CRCW040260K4FKED"/>
+<attribute name="MPN" value="CRCW060360K4FKEA"/>
 <attribute name="POPULATE" value="1"/>
+<attribute name="TOL" value="1%"/>
 </part>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="953">
-<attribute name="MPN" value="CRCW0402953RFKED"/>
+<attribute name="MPN" value="CRCW0603953RFKEA"/>
 <attribute name="POPULATE" value="1"/>
+<attribute name="TOL" value="1%"/>
 </part>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="86.6k">
-<attribute name="MPN" value="CRCW040286K6FKED"/>
+<attribute name="MPN" value="CRCW060386K6FKEA"/>
 <attribute name="POPULATE" value="1"/>
+<attribute name="TOL" value="1%"/>
 </part>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k">
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k">
 <attribute name="MPN" value="RR1220P-103-D"/>
 <attribute name="POPULATE" value="1"/>
+<attribute name="TOL" value="0.5%"/>
 </part>
 <part name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L4532P" package3d_urn="urn:adsk.eagle:package:25935/1" value="3.3uH">
 <attribute name="MPN" value="XAL5030-332MEB"/>
 <attribute name="POPULATE" value="1"/>
+<attribute name="TOL" value="20%"/>
 </part>
 <part name="U4" library="CustomParts" library_urn="urn:adsk.eagle:library:2193978" deviceset="TPS55340PWP" device="" package3d_urn="urn:adsk.eagle:package:2335473/3"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -16309,6 +16314,7 @@ insures correct function.</text>
 <text x="88.9" y="106.68" size="1.778" layer="97">check package</text>
 <text x="86.36" y="167.64" size="1.778" layer="97">check package</text>
 <text x="116.84" y="109.22" size="1.778" layer="97">DIODE GOES HERE</text>
+<text x="88.9" y="259.08" size="1.778" layer="97">check package</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -16344,22 +16350,27 @@ insures correct function.</text>
 <instance part="R5" gate="G$1" x="58.42" y="215.9" rot="R90">
 <attribute name="MPN" x="58.42" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="POPULATE" x="58.42" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="58.42" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="127" y="226.06" rot="R180">
 <attribute name="MPN" x="127" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="POPULATE" x="127" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="127" y="226.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="147.32" y="241.3" rot="R270">
 <attribute name="MPN" x="147.32" y="241.3" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="POPULATE" x="147.32" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="147.32" y="241.3" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="147.32" y="220.98" rot="R270">
 <attribute name="MPN" x="147.32" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="POPULATE" x="147.32" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="147.32" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="93.98" y="254" rot="R90">
 <attribute name="MPN" x="93.98" y="254" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="POPULATE" x="93.98" y="254" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TOL" x="93.98" y="254" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U4" gate="A" x="93.98" y="226.06"/>
 <instance part="GND7" gate="1" x="33.02" y="203.2"/>
