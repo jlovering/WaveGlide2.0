@@ -719,6 +719,59 @@ Source: Comchip CGRM4001-G.pdf</description>
 <text x="-1.1938" y="0.4064" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="D-PAK_TO252AA" urn="urn:adsk.eagle:footprint:29399/1" library_version="33">
+<description>&lt;b&gt;D-Pak (TO-252AA) Package&lt;/b&gt;&lt;p&gt;
+Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</description>
+<wire x1="3.275" y1="-2.15" x2="-3.275" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="-3.275" y1="-2.15" x2="-3.275" y2="3.325" width="0.2032" layer="21"/>
+<wire x1="-3.275" y1="3.325" x2="-2.775" y2="3.825" width="0.2032" layer="21"/>
+<wire x1="-2.775" y1="3.825" x2="2.775" y2="3.825" width="0.2032" layer="21"/>
+<wire x1="2.775" y1="3.825" x2="3.275" y2="3.325" width="0.2032" layer="21"/>
+<wire x1="3.275" y1="3.325" x2="3.275" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="4" x="0" y="2.5" dx="5.4" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<smd name="3" x="2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+<package name="SOD-123_MINI-SMA" urn="urn:adsk.eagle:footprint:43241/1" library_version="33">
+<description>&lt;b&gt;Molded plasitc,JEDEC SOD-123/Mini SMA&lt;/b&gt;&lt;p&gt;
+Source: Comchip CGRM4001-G.pdf</description>
+<wire x1="-1.8725" y1="0.835" x2="1.8725" y2="0.835" width="0.127" layer="51"/>
+<wire x1="-1.8725" y1="-0.835" x2="1.8725" y2="-0.835" width="0.127" layer="51"/>
+<wire x1="-0.3175" y1="0" x2="0.3175" y2="-0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="-0.4763" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.4763" x2="-0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.3175" y2="-0.4763" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.3175" y2="0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.5613" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.5613" y2="0" width="0.127" layer="21"/>
+<smd name="A" x="1.8" y="0" dx="1.5" dy="2.1" layer="1" rot="R180"/>
+<smd name="C" x="-1.8" y="0" dx="1.5" dy="2.1" layer="1" rot="R180"/>
+<text x="-3.048" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.95" y1="-0.9" x2="-1.5875" y2="0.9" layer="51"/>
+<rectangle x1="1.5875" y1="-0.9" x2="1.95" y2="0.9" layer="51"/>
+<rectangle x1="-1.0249" y1="-0.9" x2="-0.6625" y2="0.9" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MPXV7002" urn="urn:adsk.eagle:package:2193989/4" type="model" library_version="18" library_locally_modified="yes">
@@ -777,6 +830,20 @@ Source: Comchip CGRM4001-G.pdf</description>
 <package3d name="DDC5" urn="urn:adsk.eagle:package:2443411/1" type="box" library_version="30">
 <packageinstances>
 <packageinstance name="DDC5"/>
+</packageinstances>
+</package3d>
+<package3d name="D-PAK_TO252AA" urn="urn:adsk.eagle:package:2443426/1" type="box" library_version="33">
+<description>D-Pak (TO-252AA) Package
+Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</description>
+<packageinstances>
+<packageinstance name="D-PAK_TO252AA"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD-123_MINI-SMA" urn="urn:adsk.eagle:package:2443425/1" type="box" library_version="33">
+<description>Molded plasitc,JEDEC SOD-123/Mini SMA
+Source: Comchip CGRM4001-G.pdf</description>
+<packageinstances>
+<packageinstance name="SOD-123_MINI-SMA"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2947,6 +3014,8 @@ JMK105BJ225MV-F" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="20%" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 <attribute name="VOLT" value="6.3V" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 </element>
+<element name="D4" library="CustomParts" library_urn="urn:adsk.eagle:library:2193978" package="D-PAK_TO252AA" package3d_urn="urn:adsk.eagle:package:2443426/1" value="SCHOTTKYDPAK" x="-31.75" y="-269.24"/>
+<element name="D5" library="CustomParts" library_urn="urn:adsk.eagle:library:2193978" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:2443425/1" value="SCHOTTKYSOT-123" x="-33.02" y="-281.94"/>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
@@ -3102,9 +3171,11 @@ JMK105BJ225MV-F" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 <contactref element="R16" pad="1"/>
 <contactref element="C20" pad="1"/>
 <contactref element="C21" pad="1"/>
+<contactref element="D5" pad="C"/>
+<wire x1="-25.08" y1="-167.64" x2="-1.7" y2="-218.44" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.98" y1="-156.21" x2="-25.08" y2="-167.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.7" y1="-218.44" x2="-24.98" y2="-156.21" width="0" layer="19" extent="1-1"/>
-<wire x1="47.498" y1="91.628" x2="-1.7" y2="-218.44" width="0" layer="19" extent="1-16"/>
+<wire x1="-34.82" y1="-281.94" x2="-1.7" y2="-218.44" width="0" layer="19" extent="1-1"/>
+<wire x1="47.498" y1="91.628" x2="-24.98" y2="-156.21" width="0" layer="19" extent="1-16"/>
 <wire x1="46.75" y1="94.088" x2="47.498" y2="91.628" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="OLED_VSL">
@@ -3202,10 +3273,12 @@ JMK105BJ225MV-F" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 <contactref element="R13" pad="1"/>
 <contactref element="C14" pad="1"/>
 <contactref element="C15" pad="1"/>
+<contactref element="D4" pad="4"/>
 <wire x1="-8.47" y1="-58.42" x2="-2.8" y2="-76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.57" y1="-36.83" x2="-8.47" y2="-58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="44.7" y1="31" x2="-8.57" y2="-36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="34.13" y1="42.95" x2="44.7" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="-266.74" x2="-2.8" y2="-76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_I2C_SCL">
 <contactref element="U2" pad="5"/>
@@ -3381,10 +3454,14 @@ JMK105BJ225MV-F" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 <contactref element="U4" pad="1"/>
 <contactref element="U4" pad="2"/>
 <contactref element="L1" pad="2"/>
+<contactref element="D4" pad="3"/>
+<contactref element="D4" pad="1"/>
 <wire x1="-5.6388" y1="-100.390046875" x2="-5.6388" y2="-99.740034375" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.24" y1="-58.42" x2="-5.6388" y2="-99.740034375" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.47" y1="-274.04" x2="-5.6388" y2="-100.390046875" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.03" y1="-274.04" x2="-29.47" y2="-274.04" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$6">
+<signal name="TPS61222_L">
 <contactref element="L2" pad="2"/>
 <contactref element="U6" pad="5"/>
 <wire x1="-12.9921" y1="-107.95" x2="0" y2="-180.34" width="0" layer="19" extent="1-1"/>
@@ -3407,9 +3484,11 @@ JMK105BJ225MV-F" x="-24.13" y="-262.89" size="1.778" layer="27" display="off"/>
 <signal name="N$5">
 <contactref element="L3" pad="2"/>
 <contactref element="U7" pad="1"/>
+<contactref element="D5" pad="A"/>
 <wire x1="-22.7076" y1="-137.48" x2="0" y2="-193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.22" y1="-281.94" x2="0" y2="-193.04" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$11">
+<signal name="TPS79933_NR">
 <contactref element="U8" pad="4"/>
 <contactref element="C22" pad="1"/>
 <wire x1="-20.4978" y1="-251.14" x2="-1.3" y2="-275.59" width="0" layer="19" extent="1-1"/>
